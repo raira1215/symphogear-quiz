@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/*基本スタイル*/
+body {
+  background-color: rgb(253, 210, 130);
+}
+
+h1, h2, h3 {
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+section h2 {
+  padding: 8px 16px;
+  border: 3px solid white;
+}
+
+section h3 {
+  margin-left: 14px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #ccc;
+}
+
+ul {
+  list-style: none;
+  -moz-column-count: 2;
+       column-count: 2;
+}
+
+ul li {
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul li, ol li {
+  padding: 1em;
+  list-style-position: inside;
+}
+
+ul li:first-child {
+  padding-top: 32px;
+}
+
+ul li:nth-child(6) {
+  padding-top: 32px;
+}
+
+ol li:first-child {
+  margin-top: 16px;
+}
+
+/*header*/
+header {
+  margin-top: 20px;
+  padding: 16px;
+}
+header h1 {
+  padding-bottom: 8px;
+  border-bottom: 4px solid red;
+}
+@media screen and (max-width: 1250px) {
+  header h1 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 22px;
+  }
+}
+
+img {
+  margin-top: 20px;
+}
+
+.header-img {
+  gap: 10px;
+  display: flex;
+}
+@media screen and (max-width: 500px) {
+  .header-img {
+    text-align: center;
+    display: block;
+  }
+}
+
+.question {
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+.question h2 {
+  margin-top: 16px;
+}
+
+#main {
+  padding: 0 1.5em;
+}
+
+/*anime*/
+.anime {
+  margin: 0 auto;
+}
+
+.anime {
+  display: flex;
+  gap: 50px;
+}
+@media screen and (max-width: 1250px) {
+  .anime {
+    display: block;
+  }
+}
+
+/*series*/
+.series1 {
+  margin: 0 auto;
+}
+
+.series-title {
+  margin-top: 60px;
+}
+@media screen and (max-width: 480px) {
+  .series-title {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+.series-title h4 {
+  padding: 16px;
+}
+.series-title.series-title-orange {
+  border: 3px solid orange;
+}
+.series-title.series-title-blue {
+  border: 3px solid blue;
+}
+.series-title.series-title-red {
+  border: 3px solid red;
+}
+.series-title.series-title-silver {
+  border: 3px solid silver;
+}
+.series-title.series-title-green_pink {
+  border-bottom: 3px solid green;
+  border-left: 3px solid green;
+  border-right: 3px solid palevioletred;
+  border-top: 3px solid palevioletred;
+}
+
+section {
+  margin-top: 1.6em;
+}
+
+section h3 {
+  margin-top: 0.8em;
+}
+
+ol.answers {
+  list-style: upper-alpha;
+}
+
+ol.answers li:hover {
+  border: 0.1em solid #4d5f8b;
+  background-color: orange;
+  padding: 0.9em;
+  cursor: pointer;
+}
+
+span#correct-answer {
+  font-weight: bold;
+}
+
+/*question*/
+section p {
+  margin-left: 8px;
+  margin-top: 1.6em;
+  line-height: 2em;
+}
+
+#section-correct-answer {
+  display: none;
+}
+
+.back {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.notfound p {
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 500px) {
+  .notfound p {
+    margin-bottom: 16px;
+    margin: 16px 0;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
